@@ -1,0 +1,9 @@
+# Ignore .DS_Store everywhere
+/**/.DS_Store
+
+# Ignore assets from Dan Dela Rosa Asteroids
+games/*/assets_*/
+games/*/config/
+games/*/js/
+games/*/README.md
+games/*/styles/
