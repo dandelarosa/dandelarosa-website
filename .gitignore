@@ -7,3 +7,6 @@ games/*/config/
 games/*/js/
 games/*/README.md
 games/*/styles/
+
+# dependencies
+/node_modules

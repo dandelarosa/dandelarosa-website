@@ -1,0 +1,24 @@
+{
+  "name": "dandelarosa-website",
+  "version": "1.0.0",
+  "description": "Website at dandelarosa.net",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up -d",
+    "debug:client": "npm run debug -C client",
+    "postinstall": "npm install -C client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dandelarosa@github.com/dandelarosa/dandelarosa-website.git"
+  },
+  "author": "Dan Dela Rosa",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/dandelarosa/dandelarosa-website/issues"
+  },
+  "homepage": "https://github.com/dandelarosa/dandelarosa-website#readme",
+  "dependencies": {
+    "tslib": "^2.1.0"
+  }
+}
