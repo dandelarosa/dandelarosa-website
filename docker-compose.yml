@@ -1,0 +1,11 @@
+version: '3'
+services:
+  angular-ui:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    ports:
+      - "4200:4200"
+    container_name: angular-ui
+    volumes:
+       - ./web/src:/app/src
