@@ -12,11 +12,7 @@ Force a rebuild: `docker compose up --build`
 
 `docker exec -it angular-ui npm run build`
 
-### Copy Files Out of Docker
-
-`docker cp angular-ui:/app/dist/web ~/Downloads`
-
-Afterwards, upload the contents of the `web` folder into an S3 Bucket
+Afterwards, upload the contents of the `app/dist/web` folder into the S3 Bucket
 
 ## Shutting Down
 
